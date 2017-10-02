@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ex1_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp">
+
+    <TextView
+        android:id="@+id/redTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#f00"
+        android:text="red"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/orangeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/redTextView"
+        android:layout_toRightOf="@id/redTextView"
+        android:background="#ff6a00"
+        android:text="orange"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/yellowTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/orangeTextView"
+        android:layout_toRightOf="@id/orangeTextView"
+        android:background="#ff0"
+        android:text="yellow"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/greenTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/yellowTextView"
+        android:layout_toRightOf="@id/yellowTextView"
+        android:background="#0f0"
+        android:text="green"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/blueTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/greenTextView"
+        android:layout_toLeftOf="@id/greenTextView"
+        android:background="#00f"
+        android:text="blue"
+        android:textColor="#fff"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/indigoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/blueTextView"
+        android:layout_toLeftOf="@id/blueTextView"
+        android:background="#5f056b"
+        android:text="indigo"
+        android:textColor="#fff"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/violetTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/indigoTextView"
+        android:layout_toLeftOf="@id/indigoTextView"
+        android:background="#ff00bb"
+        android:text="violet"
+        android:textColor="#fff"
+        android:textSize="22sp" />
+
+
+</RelativeLayout>
